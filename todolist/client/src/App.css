@@ -1,0 +1,47 @@
+/* .App {
+  text-align: center;
+} */
+
+.todoBox {
+  display: flex;
+  margin: 8px 15px;
+  padding: 10px 0;
+  border: 1px solid rgb(169, 168, 168);
+}
+
+.todo-checkBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-check {
+  border: 1px solid rgb(185, 185, 185);
+}
+
+.todo-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-icons > .trash-icon {
+  cursor: pointer;
+  color: red;
+  font-size: 1.5rem;
+}
+
+.todo-bodyBox {
+  flex: 1; /* Grow to take up remaining space */
+}
+
+.center-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.center-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
